@@ -37,6 +37,18 @@
 #set enum(numbering: "a)i)a)", spacing: espacio_entre_items)
 #show enum: set text(size: tamaño_items)
 
+#let tabla_calificaciones = [
+    #table(columns: 2, align: (left, center),
+      ..for calificacion in calificaciones {
+        (calificacion.at(0), str(calificacion.at(1)))
+      }
+    )
+]
+
+#let promedio_sin_cbc = {
+  calc.round(calificaciones.map(n => n.at(1)).sum() / calificaciones.len(), digits: 2)
+}
+
 
 #text(baseline: 9pt, size: 11.8pt)[#smallcaps[*Antecedentes*]]
 #line(length: 100%, stroke: .5pt)
@@ -140,7 +152,7 @@
   #titulos.otros
 
 = Calificaciones #text(weight: "regular")[(sólo para cargos de Ayudante de Primera y Segunda)]
-#calificaciones
+#tabla_calificaciones
 
 #smallcaps[Promedio incluyendo aplazos y sin materias del CBC\*: #promedio_sin_cbc]
 
