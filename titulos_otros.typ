@@ -4,7 +4,7 @@
   // (indicando Institución y fecha en que ha sido expedido. Los/as jurados podrán
   // requerir la presentación de los títulos de otras Instituciones, mediante fotocopia
   // legalizada o sus originales).
-  titulos_obtenidos: nc,
+  titulos_obtenidos: [Título secundario, y como Técnico en computación en el _Instituto Industrial Luis A. Huergo, año 2022_],
 
   carrera_doctorado: nc,
 

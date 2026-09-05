@@ -9,5 +9,7 @@
   // (acreditadas a través de patentes, asistencias técnicas, convenios, etc).
   actividades_desarrollo: nc,
 
-  otros_antecedentes: nc,
+  otros_antecedentes: [
+    Repartidor de diarios en la Boca \[2021-2022\]
+  ],
 )

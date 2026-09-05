@@ -24,7 +24,11 @@
   ),
 
   // (indicar lugar, fecha y comunicaciones que presentó o si sólo asistió).
-  congresos: nc,
+  congresos: [
+    *Asistencia (solo asistencia) a:*
+    - `JCC` en Rosario *(15,16 y 17 de Octubre 2025)*.
+    - `DebConf` en Santa Fe de la Vera Cruz *(20 al 25 de Julio 2026)*.
+  ],
 
   // Tesis, becas en cuya supervisión colaboró. 
   rrhh: nc,

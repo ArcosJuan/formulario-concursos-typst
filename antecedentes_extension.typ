@@ -13,7 +13,12 @@
     otro: nc,
   ),
   actividades: (
-    divulgacion_cientifica: nc,
+    divulgacion_cientifica: [
+      #set text(weight: "bold")
+      - "Medio ayudante de 2da" como Tallerista DC del 2do cuatrimestre 2026.
+      - Partícipe de la Semana de la computación de Exactas en el año 2025 y 2026.
+      - Partícipe de la Noche de los museos de Exactas en el año 2025.
+    ],
     articulacion: nc,
   ),
   publicaciones: (
@@ -21,5 +26,7 @@
     articulacion: nc,
   ),
   presentaciones_proyectos: nc,
-  otras_actividades: nc,
+  otras_actividades: [
+    *Organicé el viaje de estudiantes a la DebConf 2026.*
+  ],
 )
